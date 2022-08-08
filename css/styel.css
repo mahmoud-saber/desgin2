@@ -1,0 +1,363 @@
+/* rgb(168 143 133)  #5d77a6*/
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: black;
+    /* background-image: url(css/img/log.jpg); */
+}
+
+.container {
+    width: 1170px;
+    height: 900px;
+    background-color: rgb(168, 143, 133);
+    margin: auto;
+}
+
+.container .head {
+    background-image: url("img/bg.jpg");
+    width: 100%;
+    height: 142px;
+    background-color: rgba(0, 0, 0, 0.493);
+}
+
+.container .socail {
+    width: 25%;
+    height: 80px;
+    /* background-color: salmon; */
+    /* margin: auto; */
+    margin-left: 75%;
+}
+
+.container .head .socail img {
+    margin: 10px;
+}
+
+.container .nav {
+    width: 95%;
+    height: 20px;
+    /* background-color: red; */
+    padding: 20px;
+    border-top: #957373 2px solid;
+
+}
+
+.container .nav ul {
+    /* background-color: yellow; */
+    width: 100%;
+    height: 30px;
+}
+
+.container .head .nav ul li {
+    color: white;
+    text-decoration: none;
+    list-style: none;
+    float: left;
+    padding: 5px;
+}
+
+.container .head .socail img:hover {
+    background-color: rgb(244, 247, 241);
+}
+
+.container .clear {
+    clear: both;
+}
+
+.container .head .nav ul li:hover {
+    color: white;
+    background-color: rgb(147, 147, 245);
+    border-radius: 40px;
+    cursor: pointer;
+}
+
+.container .images {
+    width: 800px;
+    height: 190px;
+    /* background-color: darkblue; */
+}
+
+.container .images img {
+    width: 1160px;
+    height: 190px;
+    margin: 5px;
+}
+
+
+/* text */
+.container .text {
+    /* background-color: crimson; */
+    /* background-image: url("img/log.jpg");  */
+    width: 700px;
+    height: 490px;
+    margin: 5px;
+}
+
+.container .text h1 {
+
+    border-bottom: 4px solid rgb(229 185 168);
+    color: cornflowerblue;
+    padding-top: 15px;
+}
+
+.container .text .text2 h1 {
+
+    border-bottom: 4px solid rgb(229 185 168);
+    color: cornflowerblue;
+    padding: 3px;
+}
+
+.container .text .list {
+    /* background-color: yellow; */
+    width: 270px;
+    height: 70px;
+    margin: 5px;
+    font-size: 20px;
+}
+
+/* .container .text .list ul {
+    background-color: yellow;
+
+  
+} */
+.container .text .list ul li {
+    text-align: center;
+    list-style-position: inside;
+
+}
+
+.container .text .im {
+    /* background-color: red; */
+    width: 620px;
+    height: 180px;
+    margin: 0px;
+    padding: 25px;
+}
+
+.container .text .im img {
+    border: 4px solid rosybrown;
+    padding: 5px;
+    margin: 0px;
+}
+
+/* pragraph */
+.container .text .p {
+    /* background-color: chartreuse; */
+    width: 650px;
+    height: 70px;
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+
+/* start text2 */
+.container .text2 {
+    /* background-color: brown; */
+    width: 438px;
+    height: 490px;
+    margin-top: -66%;
+    margin-left: 103%;
+}
+
+.container .text2 .peer h2 {
+    color: orangered;
+    padding: 10px;
+}
+
+.container .text2 .news p {
+    font-size: 20px;
+    padding: 10px;
+}
+
+.container .text2 .new  h2 {
+    color: orangered;
+    padding: 10px;
+}
+.container .text2 .new  p {
+    font-size: 20px;
+    padding: 10px;
+}
+
+.container .foot {
+    height: 67px;
+    width: 99%;
+    /* background-color: aqua; */
+    margin: auto;
+    border-top: 3px solid darkgray;
+}
+
+.container .foot p {
+    text-align: center;
+    margin-top: 20px;
+}
+/* ******************************************* */
+ /* .f{
+    width:300px ;
+    height:300px;
+    background-color: blueviolet;
+    float: right;
+}
+ .l{
+    width:300px ;
+    height:300px;
+    background-color: white;
+
+    float: right;
+}
+.clear{
+    clear: both;
+}
+footer{
+    background-color: yellow;
+    width: 70%;
+    height:200px;
+    /* clear: both; 
+    float: left;
+}
+
+ */
+/* //////////////////////////////////////// */
+
+.content {
+    width: 1170px;
+    height: 1170px;
+    background-color: rgb(168, 143, 133);
+    margin: auto;
+}
+
+.header{
+    width: 100%;
+    height: 12%;
+    background-color:turquoise ;
+        background-image: url("img/bg.jpg");
+}
+
+.content .header .lis{
+    background-color: black;
+    /* background-image: url("img/bg.jpg"); */
+    width: 70%;
+    height: 26%;
+    float: left;
+    margin-top: 105px;
+    border-top: solid rgb(168 143 133) 1px;
+}
+.content .header .lis ul li{
+    text-decoration: none;
+    float: left;
+    list-style: none;
+    float: left;
+    padding: 5px;
+    color: white;
+}
+.content .header .lis ul li:hover {
+    color: white;
+    background-color: rgb(147, 147, 245);
+    border-radius: 40px;
+    cursor: pointer;
+}
+
+
+
+.content .header .socail{
+    background-color:black;
+    width: 30%;
+    height: 50%;
+    float: right;
+}
+
+.content .header .socail img{
+   margin-top: 30px;
+   margin-left: 15px;
+ 
+}
+
+.content .header .socail img:hover {
+    background-color: rgb(244, 247, 241);
+}
+
+
+
+.content .header .clear{
+    clear: both;
+}
+.content .sileder{
+    background-color: cadetblue;
+    width: 100%;
+    height: 180px;
+}
+
+
+.content .sileder img{
+    width: 99%;
+    height: 180px;
+    border: aliceblue solid 5px;
+}
+.content .pr{
+    margin: 15px;
+}
+
+
+.content .fr
+{
+    /* background-color: cadetblue; */
+    width: 100%;
+    height: 40px;
+    border-bottom: solid rgb(175 160 154);
+}
+
+.content .fr h1{
+    margin-top: 25px;
+    /* padding-top: 35px; */
+}
+
+.content .cars{
+    background-color: blue;
+    margin: auto;
+    width: 65%;
+    height: 36%;
+}
+
+.content .cars img{
+    width:350px ;
+    height: 180px;
+    border: solid 6px rgb(244, 247, 241);
+    margin: 8px;
+}
+.content .fp{
+    margin: 15px;
+    margin-top: 120px;
+}
+
+.content footer{
+    background-color: #606462;
+    width: 100%;
+    height: 8%;
+    border-top: solid 2px darkgray;
+}
+
+
+.content footer div{
+
+    /* background-color:skyblue; */
+    width: 18%;
+    height: 45%;
+    margin: auto;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
